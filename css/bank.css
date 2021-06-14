@@ -1,0 +1,154 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #navigator {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+    
+    #header {
+        background-image: url(../images/womanPhone.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 400px;
+        position: relative;
+    }
+    
+    header #header_txt {
+        position: absolute;
+    }
+    
+    #header_txt h1 {
+        padding: 70px 0;
+        text-align: center;
+        color: white;
+        margin-left: 25px;
+        margin-right: 500px;
+    }
+    
+    #oppor_txt div {
+        max-width: 775px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    #oppor_txt div h2 {
+        text-align: center;
+        color: #002d72;
+        font-size: 28px;
+    }
+    
+    #oppor_txt div h2:after {
+        content: "";
+        display: block;
+        width: 80px;
+        height: 3px;
+        background: #008c95;
+        margin: 25px auto;
+    }
+    
+    #oppor_txt div p {
+        text-align: center;
+        line-height: 1.5;
+        font-size: 1.5rem
+    }
+    
+    #products {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: grey;
+    }
+    /*login interface*/
+    
+    .form_container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 5px solid #FFFF00;
+        padding: 10px;
+        background-image: url(../images/Green_Bg.jpg);
+        background-size: cover;
+    }
+    
+    .form_items {
+        margin: 60px 0;
+    }
+    
+    .form_items,
+    h1,
+    ul {
+        text-align: center;
+    }
+    
+    .form_items h1 {
+        color: #fefefe;
+        font-family: "SC Sans Web Thin", sans-serif;
+        font-size: 32px;
+        line-height: 1em;
+        letter-spacing: 0.01em;
+        font-weight: 50;
+        margin-bottom: 30px;
+    }
+    
+    .form_items ul {
+        list-style: none;
+    }
+    
+    input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+        background-color: #eee;
+    }
+    
+    .form_items ul li {
+        margin-bottom: 11px;
+        text-align: center;
+    }
+    
+    .form_items label {
+        display: inline-block;
+        width: 80px;
+        padding: 15px 0px 0px 24px;
+        text-align: initial;
+        position: relative;
+        right: -15px;
+        top: 2px;
+        font: initial;
+        font-family: "SC Sans Web Regular", sans-serif;
+        font-weight: 400 !important;
+        letter-spacing: 0.023em;
+    }
+    
+    .form_items input {
+        width: 280px;
+        height: 55px;
+        border-radius: 0px;
+        background: #fff;
+        padding-left: 135px;
+        padding-right: 14px;
+        margin-left: -85px;
+        font-size: 16px;
+    }
+    
+    #login_btn {
+        width: 430px;
+        margin-left: 19px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    
+    .no_outline:focus {
+        outline: none;
+    }
