@@ -63,8 +63,48 @@
     #products {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        background-color: grey;
+        justify-content: flex-end;
+        padding: 55px 150px;
+    }
+    
+    #pdt_sec {
+        background-color: #e7e7e7;
+        margin-top: 60px;
+    }
+    
+    .pdt_box {
+        margin: 0 35px;
+    }
+    
+    #products h4 {
+        color: #002d72;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
+    #products button {
+        padding: 10px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-family: helvetica, arial;
+        font-weight: bold;
+        color: #002d72;
+    }
+    
+    #products button:hover {
+        background: #ffb81c;
+        color: #0c2340;
+        border-color: #ffb81c;
+        border: none;
+    }
+    
+    .fas {
+        color: rgb(79 185 79);
+        margin-left: 0;
+    }
+    
+    .fa-hand-holding-dollar::before {
+        content: "︁";
     }
     /*login interface*/
     
